@@ -1,0 +1,264 @@
+.connection-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.connection-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+}
+
+.connection-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.connection-header h1 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.connection-header p {
+  margin: 0;
+  color: #666;
+  font-size: 16px;
+}
+
+.connection-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.connection-error {
+  background: #ffebee;
+  color: #c62828;
+  padding: 12px;
+  border-radius: 4px;
+  border-left: 4px solid #c62828;
+}
+
+.connection-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.method-section {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.method-section h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.method-section p {
+  margin: 0 0 15px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.method-divider {
+  text-align: center;
+  position: relative;
+  margin: 10px 0;
+}
+
+.method-divider::before,
+.method-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.method-divider::before {
+  left: 0;
+}
+
+.method-divider::after {
+  right: 0;
+}
+
+.method-divider span {
+  background: white;
+  padding: 0 15px;
+  color: #999;
+  font-weight: 500;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.url-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.url-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: #1976d2;
+}
+
+.btn-success {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-success:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.connection-eventos {
+  margin-top: 16px;
+  padding: 16px;
+  background: #e8f5e9;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+.connection-eventos h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: #2e7d32;
+}
+
+.connection-loading,
+.connection-no-events {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.connection-eventos-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.connection-eventos-list li {
+  margin: 0;
+}
+
+.btn-event {
+  width: 100%;
+  padding: 12px 16px;
+  text-align: left;
+  background: white;
+  border: 1px solid #c8e6c9;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-event:hover:not(:disabled) {
+  background: #c8e6c9;
+  border-color: #4caf50;
+}
+
+.btn-event:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.btn-event .event-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.btn-event .event-date {
+  font-size: 12px;
+  color: #666;
+}
+
+.connection-switch-mode {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #667eea;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.btn-link:hover {
+  color: #764ba2;
+}
+
+.connection-help {
+  background: #e3f2fd;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #2196f3;
+}
+
+.connection-help h4 {
+  margin: 0 0 10px 0;
+  color: #1976d2;
+}
+
+.connection-help ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #1976d2;
+}
+
+.connection-help li {
+  margin: 5px 0;
+  font-size: 14px;
+}

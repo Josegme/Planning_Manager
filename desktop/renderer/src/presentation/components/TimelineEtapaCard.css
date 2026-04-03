@@ -1,0 +1,81 @@
+.timeline-etapa-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.timeline-etapa-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.etapa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.etapa-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.etapa-info h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.etapa-orden {
+  background: #f5f5f5;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #666;
+}
+
+.etapa-body {
+  margin-bottom: 15px;
+}
+
+.etapa-descripcion {
+  color: #666;
+  margin: 0 0 15px 0;
+  font-size: 14px;
+}
+
+.etapa-tiempos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tiempo-item {
+  font-size: 14px;
+  color: #333;
+}
+
+.tiempo-item.retraso {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.etapa-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.completada-badge {
+  background: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+

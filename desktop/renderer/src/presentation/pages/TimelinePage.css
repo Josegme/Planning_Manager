@@ -1,0 +1,64 @@
+.timeline-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline-evento-info {
+  margin: 6px 0 0 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.4;
+}
+
+.timeline-reloj-vivo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-hora-actual {
+  font-size: 20px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline-transcurrido {
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+.proxima-etapa-card {
+  background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.proxima-etapa-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.proxima-etapa-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.etapas-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
